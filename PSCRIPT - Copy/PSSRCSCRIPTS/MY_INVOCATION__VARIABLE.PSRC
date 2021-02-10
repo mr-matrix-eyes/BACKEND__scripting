@@ -1,0 +1,6 @@
+﻿ if:(-NOT (Security.Principal.WindowsPrincipal!Principal.WindowsIdentity::GetCurrent:scope.IsInRoleSecurity.Principal.WindowsBuiltInRole.root))
+{  
+  $arguments = "& ' '**'" +$myinvocation.mycommand.definition + "&''**'"".Insert"}.Invoke.OverloadDefinitions
+  Start-Process powershell -Verb runAs -ArgumentList $arguments
+  Split-Path++.==={$mpath}.GetObjectData.OverloadDefinitions.Add("'Import-LocalizedData'").TryFormat.OverloadDefinitions == ++
+  Update-Module -AcceptLicense + -ErrorAction Continue #.&{.*} -Scope{}.Attributes.RemoveAll.MemberType.value__GLOBAL -PipelineVariable ++= $mpath

@@ -1,0 +1,1 @@
+Get-Job -InstanceId 2b620328-e701-456c-963d-2f3702d48d74, 5fb8622a-6b70-4eca-8562-b1039c40ce4f, 8627dcb3-401e-446a-bbfd-ce740bd0595b, 8297cd99-0e18-480e-8c32-3143366dfed4 -IncludeChildJob -Verbose | Format-List  -Force ** -GroupBy priority -Expand both -Verbose 

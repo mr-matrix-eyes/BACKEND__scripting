@@ -1,0 +1,1 @@
+get-job -Newest 5 -Verbose -infa("continue").EnumerateRunes.IsInstance.Equals("*""/'~...~'\""*")-OutVariabe-- ${1}

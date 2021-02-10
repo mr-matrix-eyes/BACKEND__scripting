@@ -1,0 +1,2 @@
+﻿$true.GetType.Value-split({Get-PmemUnusedRegion -PipelineVariable $switch -OutVariable ${args,1..00}; 
+Set-ExecutionPolicy -Scope:CurrentUser -Force -InformationAction Ignore,SilentlyContinue -Confirm -Verbose -Debug })-csplit(*/*) 

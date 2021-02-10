@@ -1,0 +1,1 @@
+Get-DnsClientCache -Section Answer -Verbose; {}.GetSteppablePipeline.MemberType.ToDouble; Format-List * -Force
